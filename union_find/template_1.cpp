@@ -19,7 +19,7 @@ public:
             set++;
         }
     }
-    // 找父节点
+    // 找父节点,带压缩的递归写法
     int find(int i)
     {
         if (a[i] != i)
@@ -66,3 +66,11 @@ int main()
     int value = solution->enter_main(data);
     cout << value << endl;
 }
+//练习题
+//    情侣牵手： https://leetcode.cn/problems/couples-holding-hands/
+//    相似字符串组：https://leetcode.cn/problems/similar-string-groups/
+//    岛屿数量: https://leetcode.cn/problems/number-of-islands/
+//    移除最多的同行或同列石头:https://leetcode.cn/problems/most-stones-removed-with-same-row-or-column/
+//    找出知晓秘密的所有专家: https://leetcode.cn/problems/find-all-people-with-secret/
+//    好路径的数目: https://leetcode.cn/problems/number-of-good-paths/
+//    尽量减少恶意软件的传播 II :https://leetcode.cn/problems/minimize-malware-spread-ii/
