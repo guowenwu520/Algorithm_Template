@@ -131,3 +131,6 @@ int main()
     cout << endl;
 }
 //练习题
+// 合并K个升序链表 ：https://leetcode.cn/problems/vvXgSW/
+// 线段最多重合问题：https://leetcode.cn/problems/meeting-rooms-ii/
+// 数组和减半的最少操作次数：https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/

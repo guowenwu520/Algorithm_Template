@@ -68,6 +68,7 @@ public:
         // 随机选择一个位置
         int x=arr[rand()%(r-l)+l];
         partSort2(l,r,x);
+        // 这里写临时变量left,right.的原因是，全局在后面可能被更新，所以要临时变量
         int left=fl;
         int right=fr;
         quickSort2(l,left-1);
