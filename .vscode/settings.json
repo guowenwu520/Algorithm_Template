@@ -16,7 +16,13 @@
         "*.tcc": "cpp",
         "sstream": "cpp",
         "iostream": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "numbers": "cpp",
+        "numeric": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
